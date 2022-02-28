@@ -19,7 +19,7 @@ class Search extends Component {
     e.preventDefault();
 
     const response = await fetch(
-      this.BASE_URL + this.state.query + "&limit=10"
+      this.BASE_URL + this.state.query + "&limit=15"
     );
 
     if (!response.ok) {
